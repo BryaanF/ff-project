@@ -141,7 +141,7 @@ class Auth extends CI_Controller {
 
         $this->email->set_newline("\r\n");
 
-      $this->email->from('sokahlau@gmail.com','sokah lau');
+      $this->email->from('(Your email)','(your name or company)');
       $this->email->to($this->input->post('email'));
 
       if ($type == 'verify') {
